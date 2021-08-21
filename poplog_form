@@ -1,0 +1,10 @@
+#!/bin/csh
+
+setenv usepop /opt/pkg_1/poplog/v15.53
+source $usepop/pop/com/poplog
+setenv MANPATH /usr/openwin/share/man:/usr/dt/man:/usr/man:/opt/pkg_0/SUNWspro/man:/usr/local/man
+
+#setenv usepop_base_url "http://www.cvg.cs.reading.ac.uk:8000/cgi-bin/poplog/"
+setenv usepop_base_url http://wwwcgi.rdg.ac.uk:8081/cgi-bin/cgiwrap/sssadw/poplog/
+
+~sssadw/public_html/cgi-bin/cgi_get_to_vedhtml
